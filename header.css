@@ -1,0 +1,141 @@
+.header {
+  background-image: url(template/header_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.header__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.menu__btn {
+  display: none;
+  width: 40px;
+  border: none;
+  position: relative;
+  padding: 0;
+  height: 30px;
+  z-index: 80;
+  transition: all 0.3s;
+}
+.menu__btn span {
+  display: block;
+  height: 2px;
+  padding: 0;
+  background-color: #fff;
+  width: 40px;
+  transition: all 0.3s;
+}
+.menu__btn span::before,
+.menu__btn span::after {
+  content: "";
+  width: 40px;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  transform-origin: 50% 50%;
+  transition: top 0.3s 0.3s, transform 0.3s;
+}
+.menu__btn span::before {
+  bottom: 0;
+  left: 0;
+}
+.menu__btn span::after {
+  top: 0;
+  left: 0;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 75px 0 30px;
+}
+
+.menu__list {
+  display: flex;
+  transition: all 0.5s;
+}
+.menu__item {
+  margin-right: 30px;
+}
+.menu__link {
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 21px;
+  transition: all 0.3s;
+}
+.menu__link:hover {
+  color: #cb0e0e;
+}
+.menu__link:active {
+  opacity: 0.5;
+}
+.phone {
+  font-size: 24px;
+  line-height: 29px;
+  margin-left: auto;
+  transition: all 0.3s;
+}
+.phone:hover {
+  color: #cb0e0e;
+}
+
+.login {
+  margin-right: 134px;
+  margin-left: 22px;
+}
+.header__content {
+  max-width: 600px;
+  margin-top: -60px;
+}
+.header__title {
+  font-family: "spaceagecyrillic";
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+.header__title span {
+  font-size: 110px;
+  /* line-height: 110px; */
+}
+
+.header__text {
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.header__btn {
+  width: 100%;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid #fff;
+  padding: 15px 10px 16px;
+}
+
+.header__decsription {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+  margin-bottom: 5%;
+}
+
+.header__decsription-text {
+  width: 165px;
+  font-size: 14px;
+  line-height: 17px;
+}
+.header__decsription-text + .header__decsription-text {
+  margin-left: 52px;
+}

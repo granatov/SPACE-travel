@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+@font-face {
+  font-family: "sf-pro-display";
+
+  src: url("fonts/SF-Pro-Display-Regular.woff2") format("woff2"),
+    url("fonts/SF-Pro-Display-Regular.woff") format("woff");
+
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "sf-pro-display";
+
+  src: url("fonts/SF-Pro-Display-Bold.woff2") format("woff2"),
+    url("fonts/SF-Pro-Display-Bold.woff") format("woff");
+
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: "spaceagecyrillic";
+
+  src: url("fonts/spaceagecyrillic-regular.woff2") format("woff2"),
+    url("fonts/spaceagecyrillic-regular.woff") format("woff");
+
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+body {
+  color: #fff;
+  font-family: "sf-pro-display";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  border: 1px solid #ffffff;
+  padding: 20px 45px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.title {
+  font-family: "spaceagecyrillic";
+  padding: 100px 0;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+}

@@ -10,6 +10,7 @@
   justify-content: space-between;
   padding-bottom: 150px;
   flex-wrap: wrap;
+  align-items: center;
 }
 .about__item:nth-child(odd) {
   flex-direction: row-reverse;

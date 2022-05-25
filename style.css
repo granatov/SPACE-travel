@@ -9,7 +9,8 @@
   font-family: "sf-pro-display";
 
   src: url("fonts/SF-Pro-Display-Regular.woff2") format("woff2"),
-    url("fonts/SF-Pro-Display-Regular.woff") format("woff");
+    url("fonts/SF-Pro-Display-Regular.woff") format("woff"),
+    url("fonts/SF-Pro-Display-Regular.otf") format("otf");
 
   font-style: normal;
   font-weight: normal;
@@ -19,7 +20,8 @@
   font-family: "sf-pro-display";
 
   src: url("fonts/SF-Pro-Display-Bold.woff2") format("woff2"),
-    url("fonts/SF-Pro-Display-Bold.woff") format("woff");
+    url("fonts/SF-Pro-Display-Bold.woff") format("woff"),
+    url("fonts/SF-Pro-Display-Bold.otf") format("otf");
 
   font-style: normal;
   font-weight: bold;
@@ -29,7 +31,8 @@
   font-family: "spaceagecyrillic";
 
   src: url("fonts/spaceagecyrillic-regular.woff2") format("woff2"),
-    url("fonts/spaceagecyrillic-regular.woff") format("woff");
+    url("fonts/spaceagecyrillic-regular.woff") format("woff"),
+    url("fonts/spaceagecyrillic-regular.otf") format("otf");
 
   font-style: normal;
   font-weight: normal;

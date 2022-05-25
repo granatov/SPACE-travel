@@ -30,7 +30,7 @@
 @font-face {
   font-family: "spaceagecyrillic";
 
-    src: url("fonts/spaceagecyrillic-regular.woff") format("woff"),
+  src: url("fonts/spaceagecyrillic-regular.woff") format("woff"),
     url("fonts/spaceagecyrillic-regular.woff2") format("woff2"),
     url("fonts/spaceagecyrillic-regular.otf") format("otf"),
     url("fonts/spaceagecyrillic-regular.ttf") format("ttf");

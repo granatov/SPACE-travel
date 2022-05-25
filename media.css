@@ -328,4 +328,7 @@
   .contacts_btn {
     padding: 20px 15px;
   }
+  .info {
+    padding-bottom: 0px;
+  }
 }

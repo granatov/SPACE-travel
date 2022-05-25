@@ -8,8 +8,8 @@
 @font-face {
   font-family: "sf-pro-display";
 
-  src: url("SF-Pro-Display-Regular.woff2") format("woff2"),
-    url("SF-Pro-Display-Regular.woff") format("woff");
+  src: url("fonts/SF-Pro-Display-Regular.woff2") format("woff2"),
+    url("fonts/SF-Pro-Display-Regular.woff") format("woff");
 
   font-style: normal;
   font-weight: normal;
@@ -18,8 +18,8 @@
 @font-face {
   font-family: "sf-pro-display";
 
-  src: url("SF-Pro-Display-Bold.woff2") format("woff2"),
-    url("SF-Pro-Display-Bold.woff") format("woff");
+  src: url("fonts/SF-Pro-Display-Bold.woff2") format("woff2"),
+    url("fonts/SF-Pro-Display-Bold.woff") format("woff");
 
   font-style: normal;
   font-weight: bold;
@@ -28,8 +28,8 @@
 @font-face {
   font-family: "spaceagecyrillic";
 
-  src: url("spaceagecyrillic-regular.woff2") format("woff2"),
-    url("spaceagecyrillic-regular.woff") format("woff");
+  src: url("fonts/spaceagecyrillic-regular.woff2") format("woff2"),
+    url("fonts/spaceagecyrillic-regular.woff") format("woff");
 
   font-style: normal;
   font-weight: normal;
